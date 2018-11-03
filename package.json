@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-aws-lambda",
+  "version": "1.0.0",
+  "description": "Nodejs AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "lambda-local -l index.js -h handler -e examples/s3-put.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagar-rout/nodejs-lambda.git"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "Serverless"
+  ],
+  "author": "Sagar Rout",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagar-rout/nodejs-lambda/issues"
+  },
+  "homepage": "https://github.com/sagar-rout/nodejs-lambda#readme"
+}
